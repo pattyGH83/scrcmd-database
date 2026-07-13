@@ -819,7 +819,7 @@
     "ShowStartMenu": {
       "type": "script_cmd",
       "id": 60,
-      "legacy_name": "Menu",
+      "legacy_name": "ShowStartMenu",
       "description": "???",
       "params": []
     },
