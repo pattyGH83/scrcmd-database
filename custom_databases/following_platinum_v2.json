@@ -9995,14 +9995,14 @@
         }
       ]
     },
-    "ScrCmd_2CC": {
+    "CallBattleHallLobbyFunction": {
       "type": "script_cmd",
       "id": 716,
       "legacy_name": "CMD_716",
       "description": "nan",
       "params": [
         {
-          "name": "???",
+          "name": "action",
           "type": "u16"
         },
         {
@@ -10010,7 +10010,7 @@
           "type": "flex"
         },
         {
-          "name": "???",
+          "name": "result",
           "type": "u16"
         }
       ]
@@ -10062,14 +10062,14 @@
         }
       ]
     },
-    "ScrCmd_2D1": {
+    "DeleteActiveBattleHallStreak": {
       "type": "script_cmd",
       "id": 721,
       "legacy_name": "CMD_721",
       "description": "nan",
       "params": [
         {
-          "name": "???",
+          "name": "challengeType",
           "type": "flex"
         }
       ]
@@ -11382,14 +11382,14 @@
         }
       ]
     },
-    "ScrCmd_32A": {
+    "CheckIfBattleHallStreakIs50": {
       "type": "script_cmd",
       "id": 810,
       "legacy_name": "CMD_810",
       "description": "nan",
       "params": [
         {
-          "name": "variable",
+          "name": "result",
           "type": "u16"
         }
       ]
@@ -31158,100 +31158,103 @@
     "VARS_START": {
       "id": 16384
     },
-    "VAR_MAP_LOCAL_0": {
+    "VAR_MAP_LOCAL_0x00": {
       "id": 16384
     },
-    "VAR_MAP_LOCAL_1": {
+    "VAR_MAP_LOCAL_0x01": {
       "id": 16385
     },
-    "VAR_MAP_LOCAL_2": {
+    "VAR_MAP_LOCAL_0x02": {
       "id": 16386
     },
-    "VAR_MAP_LOCAL_3": {
+    "VAR_MAP_LOCAL_0x03": {
       "id": 16387
     },
-    "VAR_MAP_LOCAL_4": {
+    "VAR_MAP_LOCAL_0x04": {
       "id": 16388
     },
-    "VAR_MAP_LOCAL_5": {
+    "VAR_MAP_LOCAL_0x05": {
       "id": 16389
     },
-    "VAR_MAP_LOCAL_6": {
+    "VAR_MAP_LOCAL_0x06": {
       "id": 16390
     },
-    "VAR_MAP_LOCAL_7": {
+    "VAR_MAP_LOCAL_0x07": {
       "id": 16391
     },
-    "VAR_MAP_LOCAL_8": {
+    "VAR_MAP_LOCAL_0x08": {
       "id": 16392
     },
-    "VAR_MAP_LOCAL_9": {
+    "VAR_MAP_LOCAL_0x09": {
       "id": 16393
     },
-    "VAR_MAP_LOCAL_A": {
+    "VAR_MAP_LOCAL_0x0A": {
       "id": 16394
     },
-    "VAR_MAP_LOCAL_B": {
+    "VAR_MAP_LOCAL_0x0B": {
       "id": 16395
     },
-    "VAR_MAP_LOCAL_C": {
+    "VAR_MAP_LOCAL_0x0C": {
       "id": 16396
     },
-    "VAR_MAP_LOCAL_D": {
+    "VAR_MAP_LOCAL_0x0D": {
       "id": 16397
     },
-    "VAR_MAP_LOCAL_E": {
+    "VAR_MAP_LOCAL_0x0E": {
       "id": 16398
     },
-    "VAR_MAP_LOCAL_F": {
+    "VAR_MAP_LOCAL_0x0F": {
       "id": 16399
     },
-    "VAR_MAP_LOCAL_10": {
+    "VAR_MAP_LOCAL_0x10": {
       "id": 16400
     },
-    "VAR_MAP_LOCAL_11": {
+    "VAR_MAP_LOCAL_0x11": {
       "id": 16401
     },
-    "VAR_MAP_LOCAL_12": {
+    "VAR_MAP_LOCAL_0x12": {
       "id": 16402
     },
-    "VAR_MAP_LOCAL_13": {
+    "VAR_MAP_LOCAL_0x13": {
       "id": 16403
     },
-    "VAR_MAP_LOCAL_14": {
+    "VAR_MAP_LOCAL_0x14": {
       "id": 16404
     },
-    "VAR_MAP_LOCAL_15": {
+    "VAR_MAP_LOCAL_0x15": {
       "id": 16405
     },
-    "VAR_MAP_LOCAL_16": {
+    "VAR_MAP_LOCAL_0x16": {
       "id": 16406
     },
-    "VAR_MAP_LOCAL_17": {
+    "VAR_MAP_LOCAL_0x17": {
       "id": 16407
     },
-    "VAR_MAP_LOCAL_18": {
+    "VAR_MAP_LOCAL_0x18": {
       "id": 16408
     },
-    "VAR_MAP_LOCAL_19": {
+    "VAR_MAP_LOCAL_0x19": {
       "id": 16409
     },
-    "VAR_MAP_LOCAL_1A": {
+    "VAR_MAP_LOCAL_0x1A": {
       "id": 16410
     },
-    "VAR_MAP_LOCAL_1B": {
+    "VAR_MAP_LOCAL_0x1B": {
       "id": 16411
     },
-    "VAR_MAP_LOCAL_1C": {
+    "VAR_MAP_LOCAL_0x1C": {
       "id": 16412
     },
-    "VAR_MAP_LOCAL_1D": {
+    "VAR_MAP_LOCAL_0x1D": {
       "id": 16413
     },
-    "VAR_MAP_LOCAL_1E": {
+    "VAR_MAP_LOCAL_0x1E": {
       "id": 16414
     },
-    "VAR_MAP_LOCAL_1F": {
+    "MAP_LOCAL_VARS_END": {
+      "id": 16415
+    },
+    "VAR_MAP_LOCAL_0x1F": {
       "id": 16415
     },
     "OBJ_GFX_VARS_START": {
@@ -31521,25 +31524,25 @@
     "VAR_JUBILIFE_CITY_STATE": {
       "id": 16503
     },
-    "VAR_CANALAVE_STATE": {
+    "VAR_CANALAVE_CITY_STATE": {
       "id": 16504
     },
-    "VAR_OREBURGH_STATE": {
+    "VAR_OREBURGH_CITY_STATE": {
       "id": 16505
     },
     "VAR_ETERNA_CITY_STATE": {
       "id": 16506
     },
-    "VAR_HEARTHOME_STATE": {
+    "VAR_ROUTE_209_GATE_TO_HEARTHOME_CITY_STATE": {
       "id": 16507
     },
-    "VAR_PASTORIA_STATE": {
+    "VAR_PASTORIA_CITY_STATE": {
       "id": 16508
     },
     "VAR_VEILSTONE_WAREHOUSE_GUARDS_FIGHTABLE": {
       "id": 16509
     },
-    "VAR_SUNYSHORE_STATE": {
+    "VAR_SUNYSHORE_CITY_STATE": {
       "id": 16510
     },
     "VAR_SNOWPOINT_CITY_STATE": {
@@ -31551,10 +31554,10 @@
     "VAR_FIGHT_AREA_STATE": {
       "id": 16513
     },
-    "VAR_UNK_0x4082": {
+    "VAR_VERITY_LAKEFRONT_STATE": {
       "id": 16514
     },
-    "VAR_UNK_0x4083": {
+    "VAR_DUMMY_0x4083": {
       "id": 16515
     },
     "VAR_ACUITY_LAKEFRONT_STATE": {
@@ -31590,7 +31593,7 @@
     "VAR_GALACTIC_HQ_HALL_STATE": {
       "id": 16526
     },
-    "VAR_UNK_0x408F": {
+    "VAR_UNUSED_0x408F": {
       "id": 16527
     },
     "VAR_VICTORY_ROAD_1F_ROOM_2_FOLLOWER_MARLEY_STATE": {
@@ -31647,7 +31650,7 @@
     "VAR_VILLA_STATE": {
       "id": 16545
     },
-    "VAR_UNK_0x40A2": {
+    "VAR_UNUSED_0x40A2": {
       "id": 16546
     },
     "VAR_RIVAL_HOUSE_STATE": {
@@ -31656,7 +31659,7 @@
     "VAR_PLAYER_HOUSE_STATE": {
       "id": 16548
     },
-    "VAR_PLAYER_HOUSE_RIVAL_TRIGGER_STATE": {
+    "VAR_PLAYER_HOUSE_RIVAL_STATE": {
       "id": 16549
     },
     "VAR_SANDGEM_TOWN_LAB_STATE": {
@@ -31686,10 +31689,10 @@
     "VAR_ETERNA_GYM_TRAINERS_BEATEN": {
       "id": 16558
     },
-    "VAR_UNK_0x40AF": {
+    "VAR_UNUSED_0x40AF": {
       "id": 16559
     },
-    "VAR_UNK_0x40B0": {
+    "VAR_UNUSED_0x40B0": {
       "id": 16560
     },
     "VAR_ETERNA_FOREST_FOLLOWER_CHERYL_STATE": {
@@ -31698,7 +31701,7 @@
     "VAR_CANALAVE_LIBRARY_STATE": {
       "id": 16562
     },
-    "VAR_UNK_0x40B3": {
+    "VAR_UNUSED_0x40B3": {
       "id": 16563
     },
     "VAR_REVIVED_POKEMON_SPECIES": {
@@ -31737,7 +31740,7 @@
     "VAR_BATTLE_ARCADE_LOBBY_LOAD_ACTION": {
       "id": 16575
     },
-    "VAR_UNK_0x40C0": {
+    "VAR_UNUSED_0x40C0": {
       "id": 16576
     },
     "VAR_BATTLEGROUND_STATE": {
@@ -31758,13 +31761,13 @@
     "VAR_PAL_PARK_LOBBY_STATE": {
       "id": 16582
     },
-    "VAR_PASTORIA_CITY_TRY_CROAGUNK_SCENE_STATE": {
+    "VAR_PASTORIA_CITY_CROAGUNK_SCENE_STATE": {
       "id": 16583
     },
     "VAR_RESORT_AREA_STATE": {
       "id": 16584
     },
-    "VAR_UNK_0x40C9": {
+    "VAR_UNUSED_0x40C9": {
       "id": 16585
     },
     "VAR_FOLLOWER_RIVAL_TIMES_TALKED": {
@@ -31791,7 +31794,7 @@
     "VAR_HAS_ENTERED_HEARTHOME_GYM_BEFORE": {
       "id": 16593
     },
-    "VAR_UNK_0x40D2": {
+    "VAR_UNUSED_0x40D2": {
       "id": 16594
     },
     "VAR_LAKE_ACUITY_STATE": {
@@ -31863,19 +31866,19 @@
     "VAR_FLOAROMA_MEADOW_STATE": {
       "id": 16617
     },
-    "VAR_UNK_0x40EA": {
+    "VAR_UNUSED_0x40EA": {
       "id": 16618
     },
-    "VAR_UNK_0x40EB": {
+    "VAR_UNUSED_0x40EB": {
       "id": 16619
     },
-    "VAR_UNK_0x40EC": {
+    "VAR_UNUSED_0x40EC": {
       "id": 16620
     },
     "VAR_AVAILABLE_MYSTERY_GIFT_EXISTS": {
       "id": 16621
     },
-    "VAR_UNK_0x40EE": {
+    "VAR_UNUSED_0x40EE": {
       "id": 16622
     },
     "VAR_RIVAL_BEAT_SUNYSHORE_GYM": {
@@ -31893,7 +31896,7 @@
     "VAR_PAL_PARK_STATE": {
       "id": 16627
     },
-    "VAR_UNK_0x40F4": {
+    "VAR_DUMMY_0x40F4": {
       "id": 16628
     },
     "VAR_VEILSTONE_CITY_CRASHER_WAKE_STATE": {
@@ -31911,7 +31914,7 @@
     "VAR_PLAYER_HOUSE_SPECIAL_PROGRAM_STATE": {
       "id": 16633
     },
-    "VAR_UNK_0x40FA": {
+    "VAR_UNUSED_0x40FA": {
       "id": 16634
     },
     "VAR_RESTAURANT_RANDOM_MESSAGE_ISMAEL_HARLEY": {
@@ -31950,16 +31953,16 @@
     "VAR_LUNAR_WING_EVENT_STATE": {
       "id": 16646
     },
-    "VAR_VEILSTONE_STORE_MASK": {
+    "VAR_VEILSTONE_STORE_1F_ACCESSORY_STARTER_MASK": {
       "id": 16647
     },
     "VAR_ROUTE_221_HOUSE_REWARD_INDEX": {
       "id": 16648
     },
-    "VAR_UNK_0x4109": {
+    "VAR_UNUSED_0x4109": {
       "id": 16649
     },
-    "VAR_ACCESSORY_STARTER_MASK": {
+    "VAR_JUBILIFE_TV_2F_ACCESSORY_STARTER_MASK": {
       "id": 16650
     },
     "VAR_TURNBACK_CAVE_PILLARS_SEEN": {
@@ -31967,6 +31970,9 @@
     },
     "VAR_TURNBACK_CAVE_ROOMS_VISITED": {
       "id": 16652
+    },
+    "VAR_GALACTIC_HQ_CONTROL_ROOM_STATE": {
+      "id": 16653
     },
     "VAR_BATTLE_PARK_STATE": {
       "id": 16654
@@ -31980,7 +31986,7 @@
     "VAR_OLD_CHATEAU_BACK_MIDDLE_EAST_ROOM_TWIN_STATE": {
       "id": 16657
     },
-    "VAR_UNK_0x4112": {
+    "VAR_VALOR_LAKEFRONT_BLOCK_SUNYSHORE_STATE": {
       "id": 16658
     },
     "VAR_BATTLE_FRONTIER_GATE_TO_FIGHT_AREA_STATE": {
@@ -32010,7 +32016,7 @@
     "VAR_ROTOMS_ROOM_STATE": {
       "id": 16667
     },
-    "VAR_UNK_0x411C": {
+    "VAR_UNUSED_0x411C": {
       "id": 16668
     },
     "VAR_TEAM_GALACTIC_ETERNA_BUILDING_1F_STATE": {
